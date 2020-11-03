@@ -7,13 +7,14 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap"
       rel="stylesheet"
-    />
-    <link
-      href="//db.onlinewebfonts.com/c/da4bd8e21f46f0b15ce2a0e7adb48b2a?family=MBPictureHouseTwoW01-Bold"
-      rel="stylesheet"
-      type="text/css"
+      crossorigin="anonymous"
     />
     <style>
+      @font-face {
+        font-family: "myFirstFont";
+        src: url("./mbhouse.ttf");
+      }
+
       :root {
         --grren: #007066;
         --blue: #3182ce;
@@ -50,9 +51,10 @@
       }
       section h2 {
         color: var(--blue);
-        font-family: "MBPictureHouseTwoW01-Bold";
+        font-family: "myFirstFont";
         font-size: 2.2rem;
         margin: 12px 0px;
+        font-weight: bold;
       }
       a {
         text-decoration: none;
